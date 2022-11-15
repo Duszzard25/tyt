@@ -1,0 +1,65 @@
+@font-face {
+    src: url("projectFont.ttf");
+    font-family: project;
+}
+
+body {
+    margin: 30px;
+    background: #1B244A;
+    width: 525px;
+    height: 385px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.HOME-GUEST {
+    width: 150px;
+    height: 35px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: #EEEEEE;
+    margin-bottom: -45px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    width: 155px;
+    height: 120px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 130px;
+    text-align: center;
+    color: #F94F6D;
+    font-family: project;
+    background: #080001;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.buttons-group {
+    display: flex;
+    justify-content: space-around;
+    width: 155px;
+    height: 45px;
+    margin-top: -30px;
+}
+
+.buttons-single {
+    width: 45px;
+    height: 45px;
+    line-height: 30px;
+    color: #9AABD8;
+    background: #1B244A;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    font-family: project;
+}
